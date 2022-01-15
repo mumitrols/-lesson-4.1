@@ -65,6 +65,7 @@ class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
+   //Специальный тест на падение
     @Test
     void testFallCheckBonusBelowLimitForUnRegistered() {
         BonusService service = new BonusService();
